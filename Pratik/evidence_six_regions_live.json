@@ -1,0 +1,72 @@
+{
+  "Mumbai": {
+    "http_status": 200,
+    "data": {
+      "ok": true,
+      "status": "ABSTAIN",
+      "reason": "GAP_IN_CANONICAL_RECORD",
+      "message": "Verified context is unavailable. Failing closed to ABSTAIN per Group 2 mandate.",
+      "provenance": {
+        "observationId": "MU-Z01-EXT-OPENMETEO-OBS001",
+        "traceId": "ctx_1787986101278",
+        "contextFound": false
+      }
+    }
+  },
+  "Navi Mumbai": {
+    "http_status": 200,
+    "data": {
+      "ok": true,
+      "status": "ABSTAIN",
+      "reason": "GAP_IN_CANONICAL_RECORD",
+      "message": "Verified context is unavailable. Failing closed to ABSTAIN per Group 2 mandate.",
+      "provenance": {
+        "observationId": "NM-Z01-EXT-OPENMETEO-OBS001",
+        "traceId": "ctx_1787986101651",
+        "contextFound": false
+      }
+    }
+  },
+  "Vasai": {
+    "http_status": 200,
+    "data": {
+      "ok": true,
+      "status": "ABSTAIN",
+      "reason": "GAP_IN_CANONICAL_RECORD",
+      "message": "Verified context is unavailable. Failing closed to ABSTAIN per Group 2 mandate.",
+      "provenance": {
+        "observationId": "VS-Z01-EXT-OPENMETEO-OBS001",
+        "traceId": "ctx_1787986103031",
+        "contextFound": false
+      }
+    }
+  },
+  "Thane": {
+    "http_status": 200,
+    "data": {
+      "ok": true,
+      "status": "ABSTAIN",
+      "reason": "GAP_IN_CANONICAL_RECORD",
+      "message": "Verified context is unavailable. Failing closed to ABSTAIN per Group 2 mandate.",
+      "provenance": {
+        "observationId": "THN-Z01-EXT-OPENMETEO-OBS001",
+        "traceId": "ctx_1787986103393",
+        "contextFound": false
+      }
+    }
+  },
+  "Maval": {
+    "http_status": 200,
+    "data": {
+      "ok": true,
+      "status": "ABSTAIN",
+      "reason": "GAP_IN_CANONICAL_RECORD",
+      "message": "Verified context is unavailable. Failing closed to ABSTAIN per Group 2 mandate.",
+      "provenance": {
+        "observationId": "MV-Z01-EXT-OPENMETEO-OBS001",
+        "traceId": "ctx_1787986103759",
+        "contextFound": false
+      }
+    }
+  }
+}

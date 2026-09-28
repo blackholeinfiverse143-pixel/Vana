@@ -1,0 +1,16 @@
+{
+  "observation_id": "TC-Z03-F02-LIDAR-OBS001",
+  "status": "SYNTHETIC_TEST",
+  "measurement": {
+    "parameter": "canopy_height",
+    "value": 4.7,
+    "unit": "m",
+    "method": "LiDAR canopy scan"
+  },
+  "location": {
+    "lat": 19.1288,
+    "lon": 72.9421,
+    "place_name": "Thane Creek Zone 3 Plot 2"
+  },
+  "timestamp": "2026-08-13T09:14:22Z"
+}

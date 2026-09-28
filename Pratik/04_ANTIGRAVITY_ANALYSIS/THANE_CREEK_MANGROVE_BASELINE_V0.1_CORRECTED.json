@@ -1,0 +1,70 @@
+[
+    {
+        "observation": {
+            "observation_id": "OBS_TCFS_001_SAMACHAR_RUN_20260812_01",
+            "dataset_id": "DS_GOVT_MFD_001",
+            "geo_id": "GEO_TCFS_001",
+            "observation_date": "2020-01-01",
+            "date_precision": "YYYY",
+            "species": "Mangrove spp.",
+            "observation_type": "EXTENT",
+            "confidence": "UNCERTAIN",
+            "conflict_flag": false,
+            "conflict_notes": null
+        },
+        "measurement": {
+            "measurement_id": "MEAS-TCFS-EXTENT-2020-01",
+            "observation_id": "OBS_TCFS_001_SAMACHAR_RUN_20260812_01",
+            "metric_name": "mangrove_forest_extent",
+            "value": 8.96,
+            "unit": "sq km",
+            "method": "Remote sensing satellite mapping",
+            "original_value_text": "8.96 sq km",
+            "transform_applied": "UNIT_NORMALISATION_RETAINED_SQKM"
+        },
+        "geography": {
+            "geo_id": "GEO_TCFS_001",
+            "place_name": "Thane Creek Flamingo Sanctuary (TCFS)",
+            "lat": 19.1477,
+            "lon": 72.9817,
+            "crs": "EPSG:4326",
+            "notes": "Centroid of TCFS sanctuary area. Coordinates retrieved from external baseline; not specified in the primary document abstract."
+        },
+        "source": {
+            "source_id": "SRC_GOVT_MFD_001",
+            "source_type": "GOVERNMENT_DATASET",
+            "title": "Maharashtra Forest Department & ISRO Mangrove Cell Report (2020)",
+            "publisher": "Maharashtra Forest Department & ISRO",
+            "url": null,
+            "citation": "Maharashtra Forest Department & ISRO Mangrove Cell Report (2020)",
+            "is_synthetic": false,
+            "notes": "CLAIM ONLY — NOT SOURCE-VERIFIED. Document PDF not yet located in the literature registry."
+        },
+        "dataset": {
+            "dataset_id": "DS_GOVT_MFD_001",
+            "dataset_name": "Thane Creek Mangrove Extent (2020)",
+            "source_id": "SRC_GOVT_MFD_001",
+            "methodology": "Satellite remote sensing and boundary mapping",
+            "schema_version": "0.1",
+            "status": "UNCERTAIN"
+        },
+        "processing_run": {
+            "run_id": "RUN_20260812_01",
+            "source_id": "SRC_GOVT_MFD_001",
+            "dataset_id": "DS_GOVT_MFD_001",
+            "pipeline_stage": "INGEST",
+            "status": "DONE",
+            "input_ref": "Maharashtra Forest Department & ISRO Mangrove Cell Report (2020)",
+            "output_ref": "Thane Creek Mangrove Extent (2020) Record",
+            "error_detail": null,
+            "actor": "Pritesh"
+        },
+        "provenance": {
+            "provenance_id": "PROV_MEAS_TCFS_001",
+            "measurement_id": "MEAS-TCFS-EXTENT-2020-01",
+            "source_id": "SRC_GOVT_MFD_001",
+            "run_id": "RUN_20260812_01",
+            "derivation_note": "Extracted from Maharashtra Forest Department & ISRO Mangrove Cell Report (2020), page/section unconfirmed (CLAIM ONLY — EVIDENCE REQUIRED)."
+        }
+    }
+]

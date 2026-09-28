@@ -1,0 +1,30 @@
+{
+  "context_id": "ctx-tc-001",
+  "observation_id": "TC-Z03-F02-LIDAR-OBS001",
+  "parameter_name": "expected_canopy_height",
+  "parameter_value": {
+    "value": 4.8,
+    "range": [3.5, 6.5],
+    "unit": "m"
+  },
+  "valid_from": "2020-01-01T00:00:00Z",
+  "valid_to": "2028-12-31T23:59:59Z",
+  "location_polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [72.93, 19.00],
+        [73.02, 19.00],
+        [73.02, 19.15],
+        [72.93, 19.15],
+        [72.93, 19.00]
+      ]
+    ]
+  },
+  "source_citation": "ScienceDirect / Elsevier (2023) — \"Standing carbon stock of Thane Creek mangrove ecosystem, Maharashtra, India\"",
+  "source_url": null,
+  "source_doi": "10.1016/j.rsma.2023.103207",
+  "confidence_score": 0.85,
+  "validation_status": "VERIFIED",
+  "validation_evidence": "Verified baseline range of 3.5 m to 6.5 m (mean: 4.8 m) derived from ScienceDirect / Elsevier (2023) study for Thane Creek, using Global Mangrove Watch v3.0 spatial reference."
+}

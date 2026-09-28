@@ -1,0 +1,23 @@
+[
+  {
+    "trace_id": "TRACE-tc-lidar-canopy-2026",
+    "verdict": "CONTEXT_RESOLUTION_COMPLETE",
+    "pipeline_hash": "70d466ced279e2af50b950c96904dfde66bf814759bdcd2afa1ead7fc6277c4e",
+    "timestamp": "2026-08-14T10:39:13.722751",
+    "contract_version": "v1"
+  },
+  {
+    "trace_id": "TRACE-tc-lidar-canopy-2026",
+    "verdict": "CONTEXT_RESOLUTION_COMPLETE",
+    "pipeline_hash": "70d466ced279e2af50b950c96904dfde66bf814759bdcd2afa1ead7fc6277c4e",
+    "timestamp": "2026-08-14T10:41:14.063557",
+    "contract_version": "v1"
+  },
+  {
+    "trace_id": "TRACE-tc-lidar-canopy-2026",
+    "verdict": "CONTEXT_RESOLUTION_COMPLETE",
+    "pipeline_hash": "804e676231b1aabd24f4cec81090b58daafe868e4adbfc0e22b5e3386ae849aa",
+    "timestamp": "2026-08-14T10:41:22.169458",
+    "contract_version": "v1"
+  }
+]

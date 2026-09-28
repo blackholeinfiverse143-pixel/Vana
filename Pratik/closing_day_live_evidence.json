@@ -1,0 +1,359 @@
+{
+  "cors_preflight": {
+    "status_code": 204,
+    "headers": {
+      "Server": "nginx/1.25.5",
+      "Date": "Sat, 29 Aug 2026 13:20:34 GMT",
+      "Content-Length": "0",
+      "Connection": "keep-alive",
+      "X-Powered-By": "Express",
+      "Access-Control-Allow-Origin": "http://localhost:8000",
+      "Vary": "Origin",
+      "Access-Control-Allow-Credentials": "true",
+      "Access-Control-Allow-Methods": "GET,POST,PUT,PATCH,DELETE,OPTIONS",
+      "Access-Control-Allow-Headers": "Origin,X-Requested-With,Content-Type,Accept,x-auth-token,Authorization,X-Branch,x-branch,X-Execution-Id,x-execution-id,X-Trace-Id,x-trace-id,X-Execution-Key,x-execution-key,X-Tenant-Id,x-tenant-id,X-Governance-Route,x-governance-route,X-Governance-Policy,x-governance-policy,X-Governance-Authority,x-governance-authority,X-Governance-Signature,x-governance-signature,X-CLIENT-TIMESTAMP,x-client-timestamp",
+      "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+      "X-Frame-Options": "DENY",
+      "X-Content-Type-Options": "nosniff",
+      "X-XSS-Protection": "1; mode=block"
+    }
+  },
+  "group1_tc": {
+    "status_code": 200,
+    "data": {
+      "trace_id": "VANA-f5683e8897b4",
+      "observation_id": "TC-Z03-EXT-OPENMETEO-OBS001",
+      "status": "RETRIEVED",
+      "observation": {
+        "observation_id": "TC-Z03-EXT-OPENMETEO-OBS001",
+        "canonical_record_id": "CR-b4615a27-7ab1-4bde-a078-a56fa0f2414c",
+        "dataset_id": "DS-GROUP3-TC-Z03-F02",
+        "geo_id": "GEO-6bc544e77bfbddb53ff918dfe08cd8f2",
+        "observed_at": "2026-08-25 11:00:00+00:00",
+        "observation_timestamp": "2026-08-25 11:00:00+00:00",
+        "timestamp": "2026-08-25 11:00:00+00:00",
+        "contract_version": "2.2",
+        "schema_version": "2.2",
+        "provenance_reference": "open-meteo:8d26e68328ac160f",
+        "source_timestamp": "2026-08-25 11:00:00+00:00",
+        "capture_method": "external_api",
+        "device_id": "G3-EXT-OPENMETEO-01",
+        "species": null,
+        "observation_type": "precipitation",
+        "quality_status": "CAPTURED",
+        "quality_state": "CAPTURED",
+        "data_state": "CAPTURED",
+        "confidence": null,
+        "is_synthetic": true,
+        "synthetic_state": "CONTROLLED",
+        "location": {
+          "latitude": 19.1288,
+          "longitude": 72.9421,
+          "altitude_m": 4.0,
+          "gnss_status": "NOT_VERIFIED",
+          "position_accuracy_m": null
+        },
+        "latitude": 19.1288,
+        "longitude": 72.9421,
+        "altitude_m": 4.0,
+        "gnss_status": "NOT_VERIFIED",
+        "position_accuracy_m": null,
+        "calibration_status": "NOT_VERIFIED",
+        "calibration_state": "NOT_VERIFIED",
+        "raw_artifact": "https://api.open-meteo.com/v1/forecast?latitude=19.1288&longitude=72.9421&current=temperature_2m,relative_humidity_2m,precipitation,wind_speed_10m&timezone=UTC",
+        "raw_artifact_integrity": {
+          "checksum_sha256": "8d26e68328ac160f7b69f1a24ccb2de4972ff9fc60af11093c246903a7c52502",
+          "hash_algorithm": "sha256",
+          "artifact_type": "sensor_reading"
+        },
+        "raw_artifact_reference": {
+          "path": "https://api.open-meteo.com/v1/forecast?latitude=19.1288&longitude=72.9421&current=temperature_2m,relative_humidity_2m,precipitation,wind_speed_10m&timezone=UTC",
+          "checksum_sha256": "8d26e68328ac160f7b69f1a24ccb2de4972ff9fc60af11093c246903a7c52502",
+          "artifact_type": "sensor_reading"
+        },
+        "geo_location": {
+          "place_name": "Group 3 observation location",
+          "latitude": 19.1288,
+          "longitude": 72.9421,
+          "altitude_m": 4.0,
+          "crs": "EPSG:4326"
+        },
+        "field_observation_meta": {
+          "device_id": "G3-EXT-OPENMETEO-01",
+          "operator": "Open-Meteo.com (external data provider)",
+          "mission_id": "TC-Z03-EXT",
+          "accuracy": null,
+          "accuracy_unit": null,
+          "accuracy_status": "NOT_VERIFIED",
+          "calibration_status": "NOT_VERIFIED",
+          "gnss_status": "NOT_VERIFIED",
+          "position_accuracy_m": null,
+          "processing_status": "raw",
+          "notes": null
+        },
+        "measurements": [
+          {
+            "measurement_id": "MEAS-911005a8fb8b32be73e02f0edb148679",
+            "metric_name": "precipitation",
+            "data_type": "NUMERIC",
+            "value": 0.1,
+            "value_text": null,
+            "unit": "mm",
+            "method": "precipitation",
+            "provenance": {
+              "provenance_id": "PROV-c52cbcea7c25195d7752eaed72048d50",
+              "source_id": "SRC-GROUP3-FIELD-EDGE",
+              "run_id": "RUN-60868ee535029f52b471608ccaa2bc38",
+              "derivation_note": "Group 3 V2.2 observation ingested through consumer-facing API."
+            }
+          }
+        ],
+        "raw_artifacts": [
+          {
+            "artifact_id": "ART-414b5e9c187be8ff01e353ec6f7221e3",
+            "artifact_type": "sensor_reading",
+            "storage_ref": "https://api.open-meteo.com/v1/forecast?latitude=19.1288&longitude=72.9421&current=temperature_2m,relative_humidity_2m,precipitation,wind_speed_10m&timezone=UTC",
+            "content_hash": "8d26e68328ac160f7b69f1a24ccb2de4972ff9fc60af11093c246903a7c52502",
+            "hash_algorithm": "sha256",
+            "captured_at": "2026-08-25 11:00:00+00:00"
+          }
+        ]
+      }
+    }
+  },
+  "group1_regions": {
+    "MU-Z01-EXT-OPENMETEO-OBS001": {
+      "status_code": 404,
+      "response": {
+        "trace_id": "VANA-7d3de1c40052",
+        "status": "NOT_FOUND",
+        "message": "Observation was not found.",
+        "errors": []
+      }
+    },
+    "NM-Z01-EXT-OPENMETEO-OBS001": {
+      "status_code": 404,
+      "response": {
+        "trace_id": "VANA-42db9116d2dd",
+        "status": "NOT_FOUND",
+        "message": "Observation was not found.",
+        "errors": []
+      }
+    },
+    "VS-Z01-EXT-OPENMETEO-OBS001": {
+      "status_code": 404,
+      "response": {
+        "trace_id": "VANA-b22725330976",
+        "status": "NOT_FOUND",
+        "message": "Observation was not found.",
+        "errors": []
+      }
+    },
+    "THN-Z01-EXT-OPENMETEO-OBS001": {
+      "status_code": 404,
+      "response": {
+        "trace_id": "VANA-4c5cf9400652",
+        "status": "NOT_FOUND",
+        "message": "Observation was not found.",
+        "errors": []
+      }
+    },
+    "MV-Z01-EXT-OPENMETEO-OBS001": {
+      "status_code": 404,
+      "response": {
+        "trace_id": "VANA-6ec0b60d9575",
+        "status": "NOT_FOUND",
+        "message": "Observation was not found.",
+        "errors": []
+      }
+    }
+  },
+  "group2": {
+    "status_code": 200,
+    "data": {
+      "observation_id": "TC-Z03-EXT-OPENMETEO-OBS001",
+      "canonical_record_id": "CR-b4615a27-7ab1-4bde-a078-a56fa0f2414c",
+      "context_id": null,
+      "ruling": "ABSTAIN",
+      "action_eligibility": false,
+      "abstention_required": true,
+      "action_request": null,
+      "evidence": {
+        "source": "Open-Meteo.com \u2014 EXTERNAL LIVE API",
+        "confidence": "NOT VERIFIED",
+        "missing_critical_data": "TIMESTAMP",
+        "provenance_reference": "open-meteo:8d26e68328ac160f",
+        "artifact_hash": "8d26e68328ac160f7b69f1a24ccb2de4972ff9fc60af11093c246903a7c52502",
+        "artifact_type": "sensor_reading",
+        "observation_timestamp": "2026-08-25T11:00:00Z",
+        "retrieval_timestamp": "2026-08-25T11:04:16Z",
+        "attribution": "Weather data by Open-Meteo.com (CC-BY 4.0), aggregating national weather services.",
+        "canonical_observation_location": "19.1288, 72.9421"
+      },
+      "provenance": {
+        "group2_decision_time": "2026-08-29T13:20:36.410Z",
+        "reason": "MISSING_SOURCE_TIMESTAMP",
+        "message": "Authoritative evidence threshold not met (Missing source timestamp). Failing closed to ABSTAIN."
+      }
+    }
+  },
+  "group4": {
+    "status_code": 200,
+    "data": {
+      "status": "governed_abstention",
+      "evidence": {
+        "event_type": "GOVERNED_ABSTENTION",
+        "abstention_record_id": "abstention-f71045f1c36d34de27f585e9",
+        "event_id": "43341c85-9b9a-4fee-8e6b-771c82765882",
+        "execution_id": "exec-abstention-9b9ed95ece8c4a7d",
+        "observation_id": "TC-Z03-EXT-OPENMETEO-OBS001",
+        "context_id": null,
+        "ruling": "ABSTAIN",
+        "decision_action": "noop",
+        "governance_allowed": true,
+        "recorded_at": "2026-08-29T13:20:36.569470+00:00",
+        "canonical_record_id": "CR-b4615a27-7ab1-4bde-a078-a56fa0f2414c"
+      }
+    }
+  },
+  "replay_runs": [
+    {
+      "run": 1,
+      "duration_ms": 588.03,
+      "g2": {
+        "observation_id": "TC-Z03-EXT-OPENMETEO-OBS001",
+        "canonical_record_id": "CR-b4615a27-7ab1-4bde-a078-a56fa0f2414c",
+        "context_id": null,
+        "ruling": "ABSTAIN",
+        "action_eligibility": false,
+        "abstention_required": true,
+        "action_request": null,
+        "evidence": {
+          "source": "Open-Meteo.com \u2014 EXTERNAL LIVE API",
+          "confidence": "NOT VERIFIED",
+          "missing_critical_data": "TIMESTAMP",
+          "provenance_reference": "open-meteo:8d26e68328ac160f",
+          "artifact_hash": "8d26e68328ac160f7b69f1a24ccb2de4972ff9fc60af11093c246903a7c52502",
+          "artifact_type": "sensor_reading",
+          "observation_timestamp": "2026-08-25T11:00:00Z",
+          "retrieval_timestamp": "2026-08-25T11:04:16Z",
+          "attribution": "Weather data by Open-Meteo.com (CC-BY 4.0), aggregating national weather services.",
+          "canonical_observation_location": "19.1288, 72.9421"
+        },
+        "provenance": {
+          "group2_decision_time": "2026-08-29T13:20:37.066Z",
+          "reason": "MISSING_SOURCE_TIMESTAMP",
+          "message": "Authoritative evidence threshold not met (Missing source timestamp). Failing closed to ABSTAIN."
+        }
+      },
+      "g4": {
+        "status": "governed_abstention",
+        "evidence": {
+          "event_type": "GOVERNED_ABSTENTION",
+          "abstention_record_id": "abstention-f71045f1c36d34de27f585e9",
+          "event_id": "e87c17e7-2127-4509-b4ef-0c9ebf8ef7f7",
+          "execution_id": "exec-abstention-98dd090fb1d94486",
+          "observation_id": "TC-Z03-EXT-OPENMETEO-OBS001",
+          "context_id": null,
+          "ruling": "ABSTAIN",
+          "decision_action": "noop",
+          "governance_allowed": true,
+          "recorded_at": "2026-08-29T13:20:37.161120+00:00",
+          "canonical_record_id": "CR-b4615a27-7ab1-4bde-a078-a56fa0f2414c"
+        }
+      }
+    },
+    {
+      "run": 2,
+      "duration_ms": 606.8,
+      "g2": {
+        "observation_id": "TC-Z03-EXT-OPENMETEO-OBS001",
+        "canonical_record_id": "CR-b4615a27-7ab1-4bde-a078-a56fa0f2414c",
+        "context_id": null,
+        "ruling": "ABSTAIN",
+        "action_eligibility": false,
+        "abstention_required": true,
+        "action_request": null,
+        "evidence": {
+          "source": "Open-Meteo.com \u2014 EXTERNAL LIVE API",
+          "confidence": "NOT VERIFIED",
+          "missing_critical_data": "TIMESTAMP",
+          "provenance_reference": "open-meteo:8d26e68328ac160f",
+          "artifact_hash": "8d26e68328ac160f7b69f1a24ccb2de4972ff9fc60af11093c246903a7c52502",
+          "artifact_type": "sensor_reading",
+          "observation_timestamp": "2026-08-25T11:00:00Z",
+          "retrieval_timestamp": "2026-08-25T11:04:16Z",
+          "attribution": "Weather data by Open-Meteo.com (CC-BY 4.0), aggregating national weather services.",
+          "canonical_observation_location": "19.1288, 72.9421"
+        },
+        "provenance": {
+          "group2_decision_time": "2026-08-29T13:20:38.168Z",
+          "reason": "MISSING_SOURCE_TIMESTAMP",
+          "message": "Authoritative evidence threshold not met (Missing source timestamp). Failing closed to ABSTAIN."
+        }
+      },
+      "g4": {
+        "status": "governed_abstention",
+        "evidence": {
+          "event_type": "GOVERNED_ABSTENTION",
+          "abstention_record_id": "abstention-f71045f1c36d34de27f585e9",
+          "event_id": "a280a886-a296-46cb-9f80-335e057c34b0",
+          "execution_id": "exec-abstention-e57cdec64d724a60",
+          "observation_id": "TC-Z03-EXT-OPENMETEO-OBS001",
+          "context_id": null,
+          "ruling": "ABSTAIN",
+          "decision_action": "noop",
+          "governance_allowed": true,
+          "recorded_at": "2026-08-29T13:20:38.274778+00:00",
+          "canonical_record_id": "CR-b4615a27-7ab1-4bde-a078-a56fa0f2414c"
+        }
+      }
+    },
+    {
+      "run": 3,
+      "duration_ms": 594.96,
+      "g2": {
+        "observation_id": "TC-Z03-EXT-OPENMETEO-OBS001",
+        "canonical_record_id": "CR-b4615a27-7ab1-4bde-a078-a56fa0f2414c",
+        "context_id": null,
+        "ruling": "ABSTAIN",
+        "action_eligibility": false,
+        "abstention_required": true,
+        "action_request": null,
+        "evidence": {
+          "source": "Open-Meteo.com \u2014 EXTERNAL LIVE API",
+          "confidence": "NOT VERIFIED",
+          "missing_critical_data": "TIMESTAMP",
+          "provenance_reference": "open-meteo:8d26e68328ac160f",
+          "artifact_hash": "8d26e68328ac160f7b69f1a24ccb2de4972ff9fc60af11093c246903a7c52502",
+          "artifact_type": "sensor_reading",
+          "observation_timestamp": "2026-08-25T11:00:00Z",
+          "retrieval_timestamp": "2026-08-25T11:04:16Z",
+          "attribution": "Weather data by Open-Meteo.com (CC-BY 4.0), aggregating national weather services.",
+          "canonical_observation_location": "19.1288, 72.9421"
+        },
+        "provenance": {
+          "group2_decision_time": "2026-08-29T13:20:39.253Z",
+          "reason": "MISSING_SOURCE_TIMESTAMP",
+          "message": "Authoritative evidence threshold not met (Missing source timestamp). Failing closed to ABSTAIN."
+        }
+      },
+      "g4": {
+        "status": "governed_abstention",
+        "evidence": {
+          "event_type": "GOVERNED_ABSTENTION",
+          "abstention_record_id": "abstention-f71045f1c36d34de27f585e9",
+          "event_id": "47a5ec26-ec43-4f9b-8920-aa1048993e69",
+          "execution_id": "exec-abstention-faf51b5315e6401d",
+          "observation_id": "TC-Z03-EXT-OPENMETEO-OBS001",
+          "context_id": null,
+          "ruling": "ABSTAIN",
+          "decision_action": "noop",
+          "governance_allowed": true,
+          "recorded_at": "2026-08-29T13:20:39.373100+00:00",
+          "canonical_record_id": "CR-b4615a27-7ab1-4bde-a078-a56fa0f2414c"
+        }
+      }
+    }
+  ]
+}
